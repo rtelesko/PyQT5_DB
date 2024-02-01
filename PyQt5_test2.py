@@ -27,7 +27,7 @@ class Contacts(QMainWindow):
         # Querying
         # (1) Returning all rows
         self.model.select()
-        # (3) Filtering
+        # (2) Filtering
         # self.model.setFilter("ID = 2")
         # self.model.select()
         # (3) Custom SQL statements
